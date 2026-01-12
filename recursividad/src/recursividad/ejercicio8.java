@@ -24,7 +24,7 @@ public class ejercicio8 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println((maxCommonDiv(150,39)));
+		System.out.println((maxCommonDiv(18,4)));
 		System.out.println((maxCommonDivI(150,39)));
 	}
 

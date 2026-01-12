@@ -1,0 +1,5 @@
+ejercicio,entidad,campo,valor,descripcion
+E2,Paciente,gravedad,6,Fuera de rango (1..5) -> IllegalArgumentException
+E3,Prestamo,dias,0,Días inválidos (<=0) -> IllegalArgumentException
+E4,Curso,plazasMax,0,Sin plazas (<=0) -> validar y lanzar excepción
+E1,Empresa,probabilidades,60/30/20,"Suma != 100 -> Exception(""Suma de probabilidades incorrecta"")"

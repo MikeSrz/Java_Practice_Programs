@@ -4,23 +4,23 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class UsaAlumno {
+public class UsaAlumno extends Persona{
 	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Alumno fernando = new Alumno();
 		fernando.setNombre("Fernando");
-		fernando.apellido = "Ronaldo";
-		fernando.edadDeNacimiento = 2005;
-		fernando.horario = Horario.TARDE;
+		fernando.setApellido("Ronaldo");
+		fernando.setEdadDeNacimiento(2005);
+		fernando.setHorario(Horario.TARDE);
 		Alumno paqui = new Alumno();
 		//Con el método toString se puede hacer que un objeto se escriba a sí mismo.
 		System.out.println(fernando);
 		System.out.println(paqui);
 		Alumno mariloli = new Alumno();
 		mariloli.setNombre("Fernando");
-		mariloli.apellido = "Fernando";
+		mariloli.setApellido("Fernando");
 	
 		
 		if (fernando.equals(paqui)) {

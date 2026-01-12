@@ -30,7 +30,7 @@ public class Algorith {
 		return reversedAr;
 	}
 	
-	public static void randomize(int vct[], int limit) {
+	public static void randomizeArray(int vct[], int limit) {
 		//Recordemos que se pasa por referencia, 
 		//así que con poner void nos basta para editar el array original.
 		Random rand = new Random();
@@ -78,6 +78,15 @@ public class Algorith {
 			}
 		}
 		return false;
+	}
+	
+	public static int findMax(int[]vct) {
+		int max = vct[0];
+		for (int n : vct) {
+			if (n > max)
+				max = n;
+		}
+		return max;
 	}
 	
 }

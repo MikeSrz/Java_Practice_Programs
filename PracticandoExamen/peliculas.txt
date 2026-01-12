@@ -1,0 +1,25 @@
+1,La Sombra del Guerrero,125,1
+2,Risas en la Oficina,98,2
+3,La Casa del Miedo,103,3
+4,Estación Espacial Omega,115,4
+5,Lágrimas en Invierno,110,5
+6,Misión Relámpago,105,1
+7,Vacaciones con Sorpresa,95,2
+8,El Bosque Maldito,101,3
+9,Viaje al Núcleo Estelar,130,4
+10,Una Vida en Silencio,120,5
+11,Operación Horizonte,112,1
+12,Hotel de los Enredos,99,2
+13,La Noche del Susurro,94,3
+14,Robots sin Control,108,4
+15,Luces en la Lluvia,117,5
+16,Persecución en la Autovía,102,1
+17,Compañeros de Piso,97,2
+18,El Pasillo Oscuro,89,3
+19,Colonia Marte 7,121,4
+20,El Último Verano,113,5
+21,Asalto al Rascacielos,118,1
+22,Padres por Accidente,96,2
+23,La Maldición del Lago,107,3
+24,Realidad Simulada,111,4
+25,Cartas Nunca Enviadas,119,5

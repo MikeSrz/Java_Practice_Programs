@@ -15,8 +15,22 @@ public class Maths {
 		}
 	}
 	
-	public static boolean detectPrime(int n) {
-		return 0;
+	public static boolean isPrime(int n) {
+		boolean result;
+		if (n < 4 && n > 1)
+			result = true;
+		else if (n % 2 == 0 || n == 1)
+			result = false;
+		else {
+			result = true;
+			for (int i = 3; i <= Math.sqrt(n); i+=2) {
+				if (n%i == 0) {
+					result = false;
+					break;
+				}
+			}
+		}
+		return result;
 	}
 	
 	public static long calcFactorial(int n) {
@@ -41,8 +55,8 @@ public class Maths {
 	
 	public static long calcFibonacci(long n) {
 		long fibonacci = n;
-		number1 = 0;
-		number2 = 0;
+		int number1 = 0;
+		int number2 = 0;
 		if (n <= 1)
 			return fibonacci;
 		//Comienzo de fibonacci
